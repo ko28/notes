@@ -1,0 +1,5 @@
+# LaTeXmk configuration file
+#$pdf_mode = 5; 
+#$pdflatex=q/xelatex -synctex=1 %O %S/
+#$pdflatex = 'xelatex -file-line-error -shell-escape -synctex=1';
+$pdf_mode = 5;

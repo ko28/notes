@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.0.4 (TeX Live 2017/Debian)  (format=lualatex 2020.1.13)  13 JAN 2020 23:33
+This is LuaTeX, Version 1.0.4 (TeX Live 2017/Debian)  (format=lualatex 2020.1.13)  15 JAN 2020 12:31
  restricted system commands enabled.
  file:line:error style messages enabled.
 **ewha6.tex
@@ -23,21 +23,22 @@ Inserting `luaotfload.aux.patch_cambria_domh' at position 2 in `luaotfload.patch
 Inserting `luaotfload.aux.fixup_fontdata' at position 1 in `luaotfload.patch_font_unsafe'.
 Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font'.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'.
-luaotfload | main : initialization completed in 0.076 seconds
+luaotfload | main : initialization completed in 0.073 seconds
 Babel <3.18> and hyphenation patterns for 1 language(s) loaded.
-(/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
-Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
-(/usr/share/texlive/texmf-dist/tex/latex/base/size11.clo
-File: size11.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+(/usr/share/texlive/texmf-dist/tex/latex/base/book.cls
+Document Class: book 2014/09/29 v1.4h Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/bk11.clo
+File: bk11.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 luaotfload | db : Font names database loaded from /home/daniel/.texlive2017/texmf-var/luatex-cache/generic/names/luaotfload-names.luc(load luc: /home/daniel/.texlive2017/texmf-var/luatex-cache/generic/fonts/otl/lmroman10-regular.luc))
 \c@part=\count79
-\c@section=\count80
-\c@subsection=\count81
-\c@subsubsection=\count82
-\c@paragraph=\count83
-\c@subparagraph=\count84
-\c@figure=\count85
-\c@table=\count86
+\c@chapter=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
 \abovecaptionskip=\skip41
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
@@ -50,18 +51,18 @@ Package: expl3 2018/02/21 L3 programming layer (loader)
  (/usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3-code.tex
 Package: expl3 2018/02/21 L3 programming layer (code)
 \ucharcat@table=\catcodetable5
-\c_max_int=\count87
-\l_tmpa_int=\count88
-\l_tmpb_int=\count89
-\g_tmpa_int=\count90
-\g_tmpb_int=\count91
-\g__intarray_font_int=\count92
-\g__prg_map_int=\count93
-\c_log_iow=\count94
-\l_iow_line_count_int=\count95
-\l__iow_line_target_int=\count96
-\l__iow_one_indent_int=\count97
-\l__iow_indent_int=\count98
+\c_max_int=\count88
+\l_tmpa_int=\count89
+\l_tmpb_int=\count90
+\g_tmpa_int=\count91
+\g_tmpb_int=\count92
+\g__intarray_font_int=\count93
+\g__prg_map_int=\count94
+\c_log_iow=\count95
+\l_iow_line_count_int=\count96
+\l__iow_line_target_int=\count97
+\l__iow_one_indent_int=\count98
+\l__iow_indent_int=\count99
 \c_zero_dim=\dimen103
 \c_max_dim=\dimen104
 \l_tmpa_dim=\dimen105
@@ -80,75 +81,75 @@ Package: expl3 2018/02/21 L3 programming layer (code)
 \l_tmpb_muskip=\muskip13
 \g_tmpa_muskip=\muskip14
 \g_tmpb_muskip=\muskip15
-\l_keys_choice_int=\count99
-\c__fp_leading_shift_int=\count100
-\c__fp_middle_shift_int=\count101
-\c__fp_trailing_shift_int=\count102
-\c__fp_big_leading_shift_int=\count103
-\c__fp_big_middle_shift_int=\count104
-\c__fp_big_trailing_shift_int=\count105
-\c__fp_Bigg_leading_shift_int=\count106
-\c__fp_Bigg_middle_shift_int=\count107
-\c__fp_Bigg_trailing_shift_int=\count108
-\c__fp_rand_size_int=\count109
-\c__fp_rand_four_int=\count110
-\c__fp_rand_eight_int=\count111
-\l__sort_length_int=\count112
-\l__sort_min_int=\count113
-\l__sort_top_int=\count114
-\l__sort_max_int=\count115
-\l__sort_true_max_int=\count116
-\l__sort_block_int=\count117
-\l__sort_begin_int=\count118
-\l__sort_end_int=\count119
-\l__sort_A_int=\count120
-\l__sort_B_int=\count121
-\l__sort_C_int=\count122
-\l__tl_build_start_index_int=\count123
-\l__tl_build_index_int=\count124
-\l__tl_analysis_normal_int=\count125
-\l__tl_analysis_index_int=\count126
-\l__tl_analysis_nesting_int=\count127
-\l__tl_analysis_type_int=\count128
-\l__regex_internal_a_int=\count129
-\l__regex_internal_b_int=\count130
-\l__regex_internal_c_int=\count131
-\l__regex_balance_int=\count132
-\l__regex_group_level_int=\count133
-\l__regex_mode_int=\count134
-\c__regex_cs_in_class_mode_int=\count135
-\c__regex_cs_mode_int=\count136
-\l__regex_catcodes_int=\count137
-\l__regex_default_catcodes_int=\count138
-\c__regex_catcode_L_int=\count139
-\c__regex_catcode_O_int=\count140
-\c__regex_catcode_A_int=\count141
-\c__regex_all_catcodes_int=\count142
-\l__regex_show_lines_int=\count143
-\l__regex_min_state_int=\count144
-\l__regex_max_state_int=\count145
-\l__regex_left_state_int=\count146
-\l__regex_right_state_int=\count147
-\l__regex_capturing_group_int=\count148
-\l__regex_min_pos_int=\count149
-\l__regex_max_pos_int=\count150
-\l__regex_curr_pos_int=\count151
-\l__regex_start_pos_int=\count152
-\l__regex_success_pos_int=\count153
-\l__regex_curr_char_int=\count154
-\l__regex_curr_catcode_int=\count155
-\l__regex_last_char_int=\count156
-\l__regex_case_changed_char_int=\count157
-\l__regex_curr_state_int=\count158
-\l__regex_step_int=\count159
-\l__regex_min_active_int=\count160
-\l__regex_max_active_int=\count161
-\l__regex_replacement_csnames_int=\count162
-\l__regex_match_count_int=\count163
-\l__regex_min_submatch_int=\count164
-\l__regex_submatch_int=\count165
-\l__regex_zeroth_submatch_int=\count166
-\g__regex_trace_regex_int=\count167
+\l_keys_choice_int=\count100
+\c__fp_leading_shift_int=\count101
+\c__fp_middle_shift_int=\count102
+\c__fp_trailing_shift_int=\count103
+\c__fp_big_leading_shift_int=\count104
+\c__fp_big_middle_shift_int=\count105
+\c__fp_big_trailing_shift_int=\count106
+\c__fp_Bigg_leading_shift_int=\count107
+\c__fp_Bigg_middle_shift_int=\count108
+\c__fp_Bigg_trailing_shift_int=\count109
+\c__fp_rand_size_int=\count110
+\c__fp_rand_four_int=\count111
+\c__fp_rand_eight_int=\count112
+\l__sort_length_int=\count113
+\l__sort_min_int=\count114
+\l__sort_top_int=\count115
+\l__sort_max_int=\count116
+\l__sort_true_max_int=\count117
+\l__sort_block_int=\count118
+\l__sort_begin_int=\count119
+\l__sort_end_int=\count120
+\l__sort_A_int=\count121
+\l__sort_B_int=\count122
+\l__sort_C_int=\count123
+\l__tl_build_start_index_int=\count124
+\l__tl_build_index_int=\count125
+\l__tl_analysis_normal_int=\count126
+\l__tl_analysis_index_int=\count127
+\l__tl_analysis_nesting_int=\count128
+\l__tl_analysis_type_int=\count129
+\l__regex_internal_a_int=\count130
+\l__regex_internal_b_int=\count131
+\l__regex_internal_c_int=\count132
+\l__regex_balance_int=\count133
+\l__regex_group_level_int=\count134
+\l__regex_mode_int=\count135
+\c__regex_cs_in_class_mode_int=\count136
+\c__regex_cs_mode_int=\count137
+\l__regex_catcodes_int=\count138
+\l__regex_default_catcodes_int=\count139
+\c__regex_catcode_L_int=\count140
+\c__regex_catcode_O_int=\count141
+\c__regex_catcode_A_int=\count142
+\c__regex_all_catcodes_int=\count143
+\l__regex_show_lines_int=\count144
+\l__regex_min_state_int=\count145
+\l__regex_max_state_int=\count146
+\l__regex_left_state_int=\count147
+\l__regex_right_state_int=\count148
+\l__regex_capturing_group_int=\count149
+\l__regex_min_pos_int=\count150
+\l__regex_max_pos_int=\count151
+\l__regex_curr_pos_int=\count152
+\l__regex_start_pos_int=\count153
+\l__regex_success_pos_int=\count154
+\l__regex_curr_char_int=\count155
+\l__regex_curr_catcode_int=\count156
+\l__regex_last_char_int=\count157
+\l__regex_case_changed_char_int=\count158
+\l__regex_curr_state_int=\count159
+\l__regex_step_int=\count160
+\l__regex_min_active_int=\count161
+\l__regex_max_active_int=\count162
+\l__regex_replacement_csnames_int=\count163
+\l__regex_match_count_int=\count164
+\l__regex_min_submatch_int=\count165
+\l__regex_submatch_int=\count166
+\l__regex_zeroth_submatch_int=\count167
+\g__regex_trace_regex_int=\count168
 \c_empty_box=\box26
 \l_tmpa_box=\box27
 \l_tmpb_box=\box28
@@ -191,27 +192,27 @@ Package: expl3 2018/02/21 L3 programming layer (code)
 \l__coffin_scaled_width_dim=\dimen133
 ) (/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3pdfmode.def
 File: l3pdfmode.def 2017/03/18 v L3 Experimental driver: PDF mode
-\l__driver_color_stack_int=\count168
+\l__driver_color_stack_int=\count169
 \l__driver_tmp_box=\box41
 ))
 Package: xparse 2018/02/21 L3 Experimental document command parser
-\l__xparse_current_arg_int=\count169
-\g__xparse_grabber_int=\count170
-\l__xparse_m_args_int=\count171
-\l__xparse_mandatory_args_int=\count172
-\l__xparse_v_nesting_int=\count173
+\l__xparse_current_arg_int=\count170
+\g__xparse_grabber_int=\count171
+\l__xparse_m_args_int=\count172
+\l__xparse_mandatory_args_int=\count173
+\l__xparse_v_nesting_int=\count174
 )
 Package: fontspec 2017/11/09 v2.6g Font selection for XeLaTeX and LuaLaTeX
 Lua module: fontspec 2017/11/09 2.6g Font selection for XeLaTeX and LuaLaTeX (/usr/share/texlive/texmf-dist/tex/latex/fontspec/fontspec-luatex.sty
 Package: fontspec-luatex 2017/11/09 v2.6g Font selection for XeLaTeX and LuaLaTeX
-\l__fontspec_script_int=\count174
-\l__fontspec_language_int=\count175
-\l__fontspec_strnum_int=\count176
-\l__fontspec_tmp_int=\count177
-\l__fontspec_em_int=\count178
-\l__fontspec_emdef_int=\count179
-\l__fontspec_strong_int=\count180
-\l__fontspec_strongdef_int=\count181
+\l__fontspec_script_int=\count175
+\l__fontspec_language_int=\count176
+\l__fontspec_strnum_int=\count177
+\l__fontspec_tmp_int=\count178
+\l__fontspec_em_int=\count179
+\l__fontspec_emdef_int=\count180
+\l__fontspec_strong_int=\count181
+\l__fontspec_strongdef_int=\count182
 \l__fontspec_tmpa_dim=\dimen134
 \l__fontspec_tmpb_dim=\dimen135
 \l__fontspec_tmpc_dim=\dimen136
@@ -442,9 +443,9 @@ Custom whatsit luako_uline_stop = 2
 Inserting `luatexko.vpack_filter' at position 1 in `vpack_filter'.
 Inserting `luatexko.post_linebreak_filter' at position 1 in `post_linebreak_filter'.
 Inserting `luatexko.fakeslant_itlc' at position 5 in `luaotfload.patch_font'.
-\luakodotemphcnt=\count182
-\luakorubyattrcnt=\count183
-\luakoulineboxcnt=\count184
+\luakodotemphcnt=\count183
+\luakorubyattrcnt=\count184
+\luakoulineboxcnt=\count185
 )
 .................................................
 . LaTeX info: "xparse/define-command"
@@ -585,79 +586,43 @@ Package: blindtext 2012/01/06 V2.0 blindtext-Package
  (/usr/share/texlive/texmf-dist/tex/latex/tools/xspace.sty
 Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
 )
-\c@blindtext=\count185
-\c@Blindtext=\count186
-\c@blind@countparstart=\count187
-\blind@countxx=\count188
-\blindtext@numBlindtext=\count189
-\blind@countyy=\count190
-\c@blindlist=\count191
-\c@blindlistlevel=\count192
-\c@blindlist@level=\count193
-\blind@listitem=\count194
-\c@blind@listcount=\count195
-\c@blind@levelcount=\count196
-\blind@mathformula=\count197
-\blind@Mathformula=\count198
-\c@blind@randomcount=\count199
-\c@blind@randommax=\count266
-\c@blind@pangramcount=\count267
-\c@blind@pangrammax=\count268
-)
-luaotfload | cache : Lookup cache loaded from /home/daniel/.texlive2017/texmf-var/luatex-cache/generic/names/luaotfload-lookup-cache.luc.(load luc: /home/daniel/.texlive2017/texmf-var/luatex-cache/generic/fonts/otl/notosanskr-regular.luc)
-\g__fontspec_family_NotoSansKR-Regular_int=\count269
-(load luc: /home/daniel/.texlive2017/texmf-var/luatex-cache/generic/fonts/otl/notosanskr-bold.luc)
-.................................................
-. fontspec info: "no-font-shape"
-. 
-. Could not resolve font "NotoSansKR-Bold/I" (it probably doesn't exist).
-.................................................
-.................................................
-. fontspec info: "no-font-shape"
-. 
-. Could not resolve font "NotoSansKR-Regular/BI" (it probably doesn't exist).
-.................................................
-.................................................
-. fontspec info: "no-font-shape"
-. 
-. Could not resolve font "NotoSansKR-Regular/I" (it probably doesn't exist).
-.................................................
-luaotfload | aux : font no 26 (nil) does not define feature smcp for script latn with language dflt
-luaotfload | aux : no font with id 26
-luaotfload | aux : font no 27 (nil) does not define feature smcp for script latn with language dflt
-luaotfload | aux : no font with id 27
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'NotoSansKR-Regular(0)' created for font 'NotoSansKR-Regular'
-. with options [Ligatures=TeX,Ligatures=TeX,BoldFont={NotoSansKR-Bold}].
-.  
-.  This font family consists of the following NFSS series/shapes:
-.  
-. - 'normal' (m/n) with NFSS spec.:
-. <->"NotoSansKR-Regular:mode=node;script=latn;language=DFLT;+tlig;"
-. - 'small caps'  (m/sc) with NFSS spec.: 
-. - 'bold' (bx/n) with NFSS spec.:
-. <->"NotoSansKR-Bold:mode=node;script=latn;language=DFLT;+tlig;"
-. - 'bold small caps'  (bx/sc) with NFSS spec.: 
-.................................................
- (./ewha6.aux)
+\c@blindtext=\count186
+\c@Blindtext=\count187
+\c@blind@countparstart=\count188
+\blind@countxx=\count189
+\blindtext@numBlindtext=\count190
+\blind@countyy=\count191
+\c@blindlist=\count192
+\c@blindlistlevel=\count193
+\c@blindlist@level=\count194
+\blind@listitem=\count195
+\c@blind@listcount=\count196
+\c@blind@levelcount=\count197
+\blind@mathformula=\count198
+\blind@Mathformula=\count199
+\c@blind@randomcount=\count266
+\c@blind@randommax=\count267
+\c@blind@pangramcount=\count268
+\c@blind@pangrammax=\count269
+) (/usr/share/texlive/texmf-dist/tex/latex/setspace/setspace.sty
+Package: setspace 2011/12/19 v6.7a set line spacing
+) (./ewha6.aux)
 \openout1 = ewha6.aux
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
 .................................................
 . fontspec info: "setup-math"
 . 
@@ -665,87 +630,95 @@ LaTeX Font Info:    ... okay on input line 8.
 .................................................
 \symlegacymaths=\mathgroup4
 LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
-(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 8.
-LaTeX Font Info:    Redeclaring math accent \acute on input line 8.
-LaTeX Font Info:    Redeclaring math accent \grave on input line 8.
-LaTeX Font Info:    Redeclaring math accent \ddot on input line 8.
-LaTeX Font Info:    Redeclaring math accent \tilde on input line 8.
-LaTeX Font Info:    Redeclaring math accent \bar on input line 8.
-LaTeX Font Info:    Redeclaring math accent \breve on input line 8.
-LaTeX Font Info:    Redeclaring math accent \check on input line 8.
-LaTeX Font Info:    Redeclaring math accent \hat on input line 8.
-LaTeX Font Info:    Redeclaring math accent \dot on input line 8.
-LaTeX Font Info:    Redeclaring math accent \mathring on input line 8.
-LaTeX Font Info:    Redeclaring math symbol \colon on input line 8.
-LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 8.
-LaTeX Font Info:    Redeclaring math symbol \Delta on input line 8.
-LaTeX Font Info:    Redeclaring math symbol \Theta on input line 8.
-LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 8.
-LaTeX Font Info:    Redeclaring math symbol \Xi on input line 8.
-LaTeX Font Info:    Redeclaring math symbol \Pi on input line 8.
-LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 8.
-LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 8.
-LaTeX Font Info:    Redeclaring math symbol \Phi on input line 8.
-LaTeX Font Info:    Redeclaring math symbol \Psi on input line 8.
-LaTeX Font Info:    Redeclaring math symbol \Omega on input line 8.
-LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 8.
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 8.
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 10.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 10.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 10.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 10.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 10.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 10.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 10.
+LaTeX Font Info:    Redeclaring math accent \check on input line 10.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 10.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 10.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 10.
+LaTeX Font Info:    Redeclaring math symbol \colon on input line 10.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 10.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 10.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 10.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 10.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 10.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 10.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 10.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 10.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 10.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 10.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 10.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 10.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 10.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 8.
+(Font)              `operators' in the math version `normal' on input line 10.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> TU/lmr/m/n on input line 8.
+(Font)                  OT1/cmr/m/n --> TU/lmr/m/n on input line 10.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 8.
+(Font)              `operators' in the math version `bold' on input line 10.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> TU/lmr/m/n on input line 8.
+(Font)                  OT1/cmr/bx/n --> TU/lmr/m/n on input line 10.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  TU/lmr/m/n --> TU/lmr/m/n on input line 8.
+(Font)                  TU/lmr/m/n --> TU/lmr/m/n on input line 10.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> TU/lmr/m/it on input line 8.
+(Font)                  OT1/cmr/m/it --> TU/lmr/m/it on input line 10.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> TU/lmr/bx/n on input line 8.
+(Font)                  OT1/cmr/bx/n --> TU/lmr/bx/n on input line 10.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 8.
+(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 10.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 8.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 10.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  TU/lmr/m/n --> TU/lmr/bx/n on input line 8.
+(Font)                  TU/lmr/m/n --> TU/lmr/bx/n on input line 10.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> TU/lmr/bx/it on input line 8.
+(Font)                  OT1/cmr/bx/it --> TU/lmr/bx/it on input line 10.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> TU/lmss/bx/n on input line 8.
+(Font)                  OT1/cmss/bx/n --> TU/lmss/bx/n on input line 10.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/bx/n on input line 8.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/bx/n on input line 10.
  ABD: EverySelectfont initializing macros
-LaTeX Info: Redefining \selectfont on input line 8.
+LaTeX Info: Redefining \selectfont on input line 10.
 \symmathhangul=\mathgroup5
 LaTeX Font Info:    Overwriting symbol font `mathhangul' in version `bold'
-(Font)                  TU/NotoSansKR-Regular(0)/m/n --> TU/NotoSansKR-Regular(0)/bx/n on input line 8.
+(Font)                  TU/lmr/m/n --> TU/lmr/bx/n on input line 10.
 (load luc: /home/daniel/.texlive2017/texmf-var/luatex-cache/generic/fonts/otl/lmroman17-regular.luc)(load luc: /home/daniel/.texlive2017/texmf-var/luatex-cache/generic/fonts/otl/lmroman12-regular.luc)(load luc: /home/daniel/.texlive2017/texmf-var/luatex-cache/generic/fonts/otl/lmroman8-regular.luc)(load luc: /home/daniel/.texlive2017/texmf-var/luatex-cache/generic/fonts/otl/lmroman6-regular.luc)
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 15.
+(Font)              <12> on input line 16.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 15.
+(Font)              <8> on input line 16.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 15.
+(Font)              <6> on input line 16.
  [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./ewha6.aux))
+
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+Chapter 1.
+(load luc: /home/daniel/.texlive2017/texmf-var/luatex-cache/generic/fonts/otl/lmroman12-bold.luc) [1
+
+](load luc: /home/daniel/.texlive2017/texmf-var/luatex-cache/generic/fonts/otl/lmromanslant10-regular.luc) [2] (./ewha6.aux))
 
 Here is how much of LuaTeX's memory you used:
- 10640 strings out of 494480
+ 10658 strings out of 494480
  100000,383344 words of node,token memory allocated
- 398 words of node memory still in use:
-   3 hlist, 1 vlist, 1 rule, 2 glue, 10 attribute, 49 glue_spec, 4 attribute_list, 1 write nodes
-   avail lists: 1:1,2:262,3:13,4:9,5:25,6:14,7:54,8:4,9:14,10:8
- 14658 multiletter control sequences out of 65536+600000
- 50 fonts using 27769847 bytes
- 52i,7n,71p,431b,270s stack positions out of 5000i,500n,10000p,200000b,100000s
-</usr/share/texmf/fonts/opentype/public/lm/lmroman10-regular.otf></usr/share/texmf/fonts/opentype/public/lm/lmroman17-regular.otf></usr/share/fonts/opentype/notosanskr/NotoSansKR-Regular.otf>
-Output written on ewha6.pdf (1 page, 6065 bytes).
+ 397 words of node memory still in use:
+   3 hlist, 1 vlist, 1 rule, 2 glue, 7 attribute, 50 glue_spec, 4 attribute_list, 1 write nodes
+   avail lists: 1:1,2:2406,3:219,4:9,5:41,6:322,7:347,8:4,9:37,10:8,11:5
+ 14698 multiletter control sequences out of 65536+600000
+ 555 fonts using 81242495 bytes
+ 52i,7n,37p,431b,249s stack positions out of 5000i,500n,10000p,200000b,100000s
+</usr/share/texmf/fonts/opentype/public/lm/lmromanslant10-regular.otf></usr/share/texmf/fonts/opentype/public/lm/lmroman10-regular.otf></usr/share/texmf/fonts/opentype/public/lm/lmroman10-bold.otf></usr/share/texmf/fonts/opentype/public/lm/lmroman12-bold.otf></usr/share/texmf/fonts/opentype/public/lm/lmroman17-regular.otf></usr/share/texlive/texmf-dist/fonts/type1/public/nanumtype1/nanummjb31.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/nanumtype1/nanummjbac.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/nanumtype1/nanummjbad.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/nanumtype1/nanummjbae.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/nanumtype1/nanummjbb0.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/nanumtype1/nanummjbb2.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/nanumtype1/nanummjbb3.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/nanumtype1/nanummjbb4.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/nanumtype1/nanummjbb5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/nanumtype1/nanummjbb7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/nanumtype1/nanummjbb8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/nanumtype1/nanummjbb9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/nanumtype1/nanummjbba.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/nanumtype1/nanummjbbb.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/nanumtype1/nanummjbbc.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/nanumtype1/nanummjbc0.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/nanumtype1/nanummjbc2.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/nanumtype1/nanummjbc5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/nanumtype1/nanummjbc6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/nanumtype1/nanummjbc7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/nanumtype1/nanummjbc8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/nanumtype1/nanummjbc9.pfb></usr
+/share/texlive/texmf-dist/fonts/type1/public/nanumtype1/nanummjbcd.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/nanumtype1/nanummjbd0.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/nanumtype1/nanummjbd1.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/nanumtype1/nanummjbd5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/nanumtype1/nanummjbd6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/nanumtype1/nanummjmac.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/nanumtype1/nanummjmad.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/nanumtype1/nanummjmae.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb0.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb1.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb2.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb3.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/nanumtype1/nanummjmb9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/nanumtype1/nanummjmba.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/nanumtype1/nanummjmbb.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/nanumtype1/nanummjmbc.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/nanumtype1/nanummjmbd.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/nanumtype1/nanummjmbe.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc0.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc1.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc2.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc7.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/public/nanumtype1/nanummjmc8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/nanumtype1/nanummjmc9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/nanumtype1/nanummjmcd.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/nanumtype1/nanummjmce.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd0.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd2.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd3.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/nanumtype1/nanummjmd7.pfb>
+Output written on ewha6.pdf (3 pages, 2146475 bytes).
 
-PDF statistics: 29 PDF objects out of 1000 (max. 8388607)
- 16 compressed objects within 1 object stream
+PDF statistics: 289 PDF objects out of 1000 (max. 8388607)
+ 208 compressed objects within 3 object streams
  0 named destinations out of 1000 (max. 131072)
  1 words of extra memory for PDF output out of 10000 (max. 100000000)
 

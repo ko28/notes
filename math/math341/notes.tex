@@ -1,0 +1,54 @@
+\documentclass[a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[margin=1in]{geometry}
+%\usepackage[pdfborder={0 0 0},colorlinks=true,citecolor=red{}]{hyperref}
+\usepackage{amsmath}
+\usepackage{setspace}
+
+\title{Math 341: Linear Alegbra}
+\author{Daniel Ko}
+\date{Spring 2020}
+
+\doublespacing
+\begin{document}
+\maketitle
+
+
+\section{Propositional Logic}
+System of figuring out if something is true or false.
+
+\(\text{Proposition} \rightarrow \text{Statement} \rightarrow \text{True or False}\)
+
+Examples:
+\begin{itemize}
+	\item P: Today is sunny 
+	\item P: I'm 5'11
+\end{itemize}
+
+\subsection{We can compose them}
+P: Today is sunny
+Q: Today is rainy
+\\
+$P \lor Q \implies \hbox{Today is sunny or Today is cloudy}$
+
+\subsection{Connectors (functions on propositions)}
+
+\subsubsection{Negation ($\lnot$)}
+
+P: Today is sunny
+\\
+$\lnot P$: Today is not sunny
+\begin{center}
+Truth Table
+\begin{displaymath}
+\begin{array}{|c|c|}
+p & \lnot q \\ 
+T & F \\
+F & T \\
+\end{array}
+\end{displaymath}
+\end{center}
+
+
+\end{document}
+

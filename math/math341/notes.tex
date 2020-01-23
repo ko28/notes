@@ -1,8 +1,10 @@
 \documentclass[a4paper]{article}
+\usepackage{enumerate}
 \usepackage[utf8]{inputenc}
 \usepackage[margin=1in]{geometry}
 %\usepackage[pdfborder={0 0 0},colorlinks=true,citecolor=red{}]{hyperref}
 \usepackage{amsmath}
+\usepackage{amssymb}
 \usepackage{setspace}
 
 \title{Math 341: Linear Alegbra}
@@ -152,6 +154,15 @@ $[(P \implies Q) \land (Q \implies P)] \Leftrightarrow [P \Leftrightarrow Q]$
 \end{center}
 
 \subsection{Rules for Computing}
+
+\subsubsection{Distibutive Laws}
+$[P \land (Q \lor R)]\Leftrightarrow[(P \land Q) \lor (P \land R)]$\\
+$[P \lor (Q \land R)]\Leftrightarrow[(P \lor Q) \land (P \lor R)]$
+
+\subsubsection{Associative Laws}
+$X \lor (Y \lor Z) \Leftrightarrow (X \lor Y) \lor Z $\\
+$X \land (Y \land Z) \Leftrightarrow (X \land Y) \land Z $
+
 \subsubsection{De Morgan's Laws}
 $\lnot (P \lor Q) \Leftrightarrow (\lnot P) \land (\lnot Q)$
 \\
@@ -183,23 +194,135 @@ $[(P \implies R) \land (R \implies Q)] \implies (P \implies Q)$
 	\begin{displaymath}
 		\begin{array}{|c|c|c|c|c|c|c|}
 			\hline
-			P & Q & R & P \implies R & R \implies P & P \implies R \land R \implies P &\ 
+			P & Q & R & P \implies R & R \implies P & P \implies R \land R \implies P & P \implies Q \\ 
 			\hline
-			T & T & T & F & F & F\\
-			T & T & F & F & F & T\\
-			T & F & T & F & T & F\\
-			T & F & F & T & T & T\\
-			F & T & T & T & T & T\\
-			F & T & F & T & T & T\\
-			F & F & T & T & T & T\\
-			F & F & F & T & T & T\\
+			T & T & T & T & T & T\\
+			T & T & F & F & T & F\\
+			T & F & T & T & T & T\\
+			T & F & F & F & T & F\\
+			F & T & T & T & F & F\\
+			F & T & F & T & F & F\\
+			F & F & T & T & F & F\\
+			F & F & F & T & F & F\\
+			\hline
+		\end{array}
+	\end{displaymath}
+\end{center}
+I'll do this later lol
+\subsection{Notation}
+$\forall
+\\
+\exists
+\setminus
+\exists \!
+$
+\subsection{Logical Concepts}
+\subsubsection{Logical Truth}
+Logical truth, sometimes called tautology, means a proposition is true in all possible cases. \\
+For example: \ $A \lor \lnot A$ \ is always true. 
+\begin{center}
+	\begin{displaymath}
+		\begin{array}{|c|c|c|}
+			\hline
+			A & \lnot A & A \lor \lnot A \\ 
+			\hline
+			T & F & T\\
+			F & T & T\\
 			\hline
 		\end{array}
 	\end{displaymath}
 \end{center}
 
+\subsubsection{Logical Contradiction}
+Similar to a logical truth, a logical condtradiction means a proposition is false in all possible cases
+For example: \ $A \land \lnot A$ \ is always true. 
+\begin{center}
+	\begin{displaymath}
+		\begin{array}{|c|c|c|}
+			\hline
+			A & \lnot A & A \land \lnot A \\ 
+			\hline
+			T & F & F\\
+			F & T & F\\
+			\hline
+		\end{array}
+	\end{displaymath}
+\end{center}
+
+\subsubsection{Law of Logically True Conjunct}
+If $Y$ is a logical truth, then $X \land Y \Leftrightarrow X$
+
+\subsubsection{Law of Contradictory Disjunct}
+If $Y$ is a contradiction, then $X \lor Y \Leftrightarrow X$
+
+\subsubsection{Disjunctive Normal Form}
 
 
 
-\end{document}
 
+
+\subsection{Proof Techniques (basic ones)}
+
+\begin{enumerate}[i]
+	\item $(P \Leftrightarrow Q) \Leftrightarrow (P \implies Q) \land (Q \implies P)$ 
+	\item $(P \implies R) \land (R \implies Q) \implies (P \implies Q)$
+	\item finish this
+\end{enumerate}
+
+
+
+\section{Vector space}
+\subsection{Field}
+Def: A field F is a set with two operations (+, $\cdot$ ) satisfying
+
+\noindent $\forall\ x,y \in F$\\
+\-\hspace{1in}$\exists !\ z \in F\ s.t.\ z = x + y$\\
+\-\hspace{1in}$\exists !\ w \in F\ s.t.\ w = x \cdot y$\\ 
+This is called closure.
+\noindent Other properties:\\
+$\forall\ a,b,c \in F$
+\begin{enumerate}
+	\item{a + b = b + a}
+	\item{(a + b) + c = a + (b + c)}
+	\item{$\exists \ 0 \in F,\ \exists \ 1 \in F$}\\
+		$0 + a = a,\ 1 \cdot a = a$ 
+	\item{Additive and Multiplicative inverse \\ $\forall \ a \in F,\ \forall \ b \in F \setminus \{0\} \\ \exists \ c,d \in F \ s.t. \ a + b = 0, \ bd = 1$}
+	\item{$a \cdot (b + c) = ab + ac$}
+\end{enumerate}
+
+Examples of fields: $\mathbb{R},\ \mathbb{C}$
+
+\subsection{Vector space}
+Def: A vector space V over a field F is a set with two operations
+\begin{itemize}
+	\item{addition}
+	\item {scalar multiplication}
+\end{itemize}
+which satisfies
+\begin{enumerate}
+	\item{$\forall \ x,y \in V \\ x + y = y + x$}
+	\item{$\forall \ x,y,z \in V \\ (x + y) + z = x + (y + x)$}
+	\item{$\exists \ 0 \in V s.t. \ x + 0 = x $}
+	\item{$\forall \ x \in V\ \exists \ y \in V\ s.t. \ x + y = 0$}
+	\item{$\forall \ x \in V \ s.t. \ 1 \cdot x = x$ \ (1 from field F)}
+	\item{$\forall \ a,b \in F, \  \forall \ x \in V \\ (a \cdot b) \cdot x = a \cdot ( b \cdot x)$}
+	\item{$\forall \ a \in F, \ \exists \ x,y \in V \\ a(x + y) = ax + ay$}
+	\item{$\forall \ a,b \in F, \ \forall \ x \in V \\ (a + b)x = ax + bx $}
+	\item{$\forall \ x,y \in V\ \exists ! \ z \in V\ s.t. \ x + y = z$}
+	\item{$\forall \ x \in F,\ \forall \ x \in V \ \exists ! \ w \ s.t. \ w = x + y$}
+\end{enumerate}
+
+$\implies$ \ Elements of F are are called scalars
+
+\subsection{Tuples of scalars}
+An n-tuple is a sequence (or ordered list of n elements, aka order matters), where n is a non-negative integer. The set of all n-tuples with entries from a field $F$ is denoted by $F^n$\\
+$F^n = \{(a_1, a_2, a_3, \dots, a_n) \ a_1 \in F\}$
+\subsubsection{Adding n-tuples}
+$u = (a_1, a_2,\dots, a_n) \ \ v = (b_1, b_2,\dots, b_n) $\\
+$u + v = (a_1 + b_1, a_2 + b_2, a_3 + b_3, \dots, a_n + b_n)$
+\subsubsection{Multiplying n-tuples with a scalar}
+$c \in F$\\
+$c \cdot u = (ca_1, ca_2,\dots, ca_n) $
+\subsubsection{other stuff}
+
+\end{document} 

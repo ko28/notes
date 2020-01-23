@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1579663164 "notes.tex" "notes.pdf" "notes" 1579663164
+["pdflatex"] 1579754668 "notes.tex" "notes.pdf" "notes" 1579754668
   "/etc/texmf/web2c/texmf.cnf" 1578934342 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1480098698 1004 54797486969f23fa377b128694d548df ""
@@ -47,10 +47,9 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1520210507 32485 c64754543d8ac501bea6e75e209ea521 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1578934385 2700761 ac0584cc9514ab21918550a6948c4ee2 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1578934409 4127540 67c6239e9a03bcb77780f889796a9b3c ""
-  "notes.aux" 1579663164 371 e1c89e6818871d780e1b85ee1cdb2c10 ""
-  "notes.tex" 1579663163 1024 ca0747f6fb978885b727ff281573aa60 ""
+  "notes.aux" 1579754668 955 a9721c2ac67d1d83bb251618ab8a5d95 ""
+  "notes.tex" 1579754662 4006 1fcf95d39eb9d3c70fa9cbf9088ec3bd ""
   (generated)
-  "notes.aux"
-  "notes.out"
   "notes.log"
   "notes.pdf"
+  "notes.aux"

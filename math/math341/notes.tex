@@ -15,9 +15,10 @@
 
 
 \section{Propositional Logic}
-System of figuring out if something is true or false.
 
-\(\text{Proposition} \rightarrow \text{Statement} \rightarrow \text{True or False}\)
+System of figuring out if something is true or false.
+\\
+$\text{Proposition} \rightarrow \text{Statement} \rightarrow \text{True or False}$
 
 Examples:
 \begin{itemize}
@@ -27,6 +28,7 @@ Examples:
 
 \subsection{We can compose them}
 P: Today is sunny
+\\
 Q: Today is rainy
 \\
 $P \lor Q \implies \hbox{Today is sunny or Today is cloudy}$
@@ -38,16 +40,165 @@ $P \lor Q \implies \hbox{Today is sunny or Today is cloudy}$
 P: Today is sunny
 \\
 $\lnot P$: Today is not sunny
+
 \begin{center}
-Truth Table
-\begin{displaymath}
-\begin{array}{|c|c|}
-p & \lnot q \\ 
-T & F \\
-F & T \\
-\end{array}
-\end{displaymath}
+	Truth Table
+	\begin{displaymath}
+		\begin{array}{|c|c|}
+			\hline
+			P & \lnot Q \\ 
+			\hline
+			T & F \\
+			F & T \\
+			\hline
+		\end{array}
+	\end{displaymath}
 \end{center}
+
+
+\subsubsection{Or ($\lor$)}
+\begin{center}
+	\begin{displaymath}
+		\begin{array}{|c|c|c|}
+			\hline
+			P & Q & P \lor Q \\ 
+			\hline
+			T & T & T\\
+			T & F & T\\
+			F & T & T\\
+			F & F & F\\ 
+			\hline
+		\end{array}
+	\end{displaymath}
+\end{center}
+
+\subsubsection{And ($\land$)}
+\begin{center}
+	\begin{displaymath}
+		\begin{array}{|c|c|c|}
+			\hline
+			P & Q & P \land Q \\ 
+			\hline
+			T & T & T\\
+			T & F & F\\
+			F & T & F\\
+			F & F & T\\ 
+			\hline
+		\end{array}
+	\end{displaymath}
+\end{center}
+
+\subsection{Implication}
+$P \implies Q$ means P implies Q 
+\\
+In other words: if P, then Q is true.
+\\
+False can imply anything.
+\\
+We will come back to this.
+\begin{center}
+	\begin{displaymath}
+		\begin{array}{|c|c|c|}
+			\hline
+			P & Q & P \implies Q \\ 
+			\hline
+			T & T & T\\
+			T & F & F\\
+			F & T & T\\
+			F & F & T\\
+			\hline
+		\end{array}
+	\end{displaymath}
+\end{center}
+
+\subsection{Equivalence}
+$P \Leftrightarrow Q$	
+\\
+Means they have same truth value on a truth table.
+\\
+If you break this down to implications you get:
+\\
+$[(P \implies Q) \land (Q \implies P)] \Leftrightarrow [P \Leftrightarrow Q]$
+\begin{center}
+	\begin{displaymath}
+		\begin{array}{|c|c|c|}
+			\hline
+			P & Q & P \Leftrightarrow Q \\ 
+			\hline
+			T & T & T\\
+			T & F & F\\
+			F & T & F\\
+			F & F & T\\
+			\hline
+		\end{array}
+	\end{displaymath}
+\end{center}
+
+
+($P \implies Q) \Leftrightarrow (\lnot P \lor Q)$ 
+\begin{center}
+	\begin{displaymath}
+		\begin{array}{|c|c|c|c|c|}
+			\hline
+			P & \lnot P & Q & P \implies Q & \lnot P \lor Q\\ 
+			\hline
+			T & F & T & T & T\\
+			T & F & F & F & F\\
+			F & T & T & T & T\\
+			F & T & F & T & T\\
+			\hline
+		\end{array}
+	\end{displaymath}
+\end{center}
+
+\subsection{Rules for Computing}
+\subsubsection{De Morgan's Laws}
+$\lnot (P \lor Q) \Leftrightarrow (\lnot P) \land (\lnot Q)$
+\\
+The rules can be expressed in English as:
+\begin{itemize}
+	\item the negation of a disjunction is the conjunction of the negations
+	\item the negation of a conjunction is the disjunction of the negations
+\end{itemize}
+Proof of De Morgan's law using proof table
+\begin{center}
+	\begin{displaymath}
+		\begin{array}{|c|c|c|c|c|c|c|}
+			\hline
+			P & Q & \lnot (P \lor Q) & \lnot P \land \lnot Q & \lnot P & \lnot Q\\ 
+			\hline
+			T & T & F & F & F & F\\
+			T & F & F & F & F & T\\
+			F & T & F & F & T & F\\
+			F & F & T & T & T & T\\
+			\hline
+		\end{array}
+	\end{displaymath}
+\end{center}
+
+\subsubsection{Transitivity}
+$[(P \implies R) \land (R \implies Q)] \implies (P \implies Q)$
+
+\begin{center}
+	\begin{displaymath}
+		\begin{array}{|c|c|c|c|c|c|c|}
+			\hline
+			P & Q & R & P \implies R & R \implies P & P \implies R \land R \implies P &\ 
+			\hline
+			T & T & T & F & F & F\\
+			T & T & F & F & F & T\\
+			T & F & T & F & T & F\\
+			T & F & F & T & T & T\\
+			F & T & T & T & T & T\\
+			F & T & F & T & T & T\\
+			F & F & T & T & T & T\\
+			F & F & F & T & T & T\\
+			\hline
+		\end{array}
+	\end{displaymath}
+\end{center}
+
+
 
 
 \end{document}

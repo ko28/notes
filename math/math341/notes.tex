@@ -1,4 +1,6 @@
 \documentclass[a4paper]{article}
+\usepackage{cmbright}
+\usepackage[T1]{fontenc}
 \usepackage{enumerate}
 \usepackage[utf8]{inputenc}
 \usepackage[margin=1in]{geometry}
@@ -33,7 +35,7 @@ P: Today is sunny
 \\
 Q: Today is rainy
 \\
-$P \lor Q \implies \hbox{Today is sunny or Today is cloudy}$
+$P \lor Q \Rightarrow \hbox{Today is sunny or Today is cloudy}$
 
 \subsection{Connectors (functions on propositions)}
 
@@ -91,7 +93,7 @@ $\lnot P$: Today is not sunny
 \end{center}
 
 \subsection{Implication}
-$P \implies Q$ means P implies Q 
+$P \Rightarrow Q$ means P implies Q 
 \\
 In other words: if P, then Q is true.
 \\
@@ -102,7 +104,7 @@ We will come back to this.
 	\begin{displaymath}
 		\begin{array}{|c|c|c|}
 			\hline
-			P & Q & P \implies Q \\ 
+			P & Q & P \Rightarrow Q \\ 
 			\hline
 			T & T & T\\
 			T & F & F\\
@@ -120,7 +122,7 @@ Means they have same truth value on a truth table.
 \\
 If you break this down to implications you get:
 \\
-$[(P \implies Q) \land (Q \implies P)] \Leftrightarrow [P \Leftrightarrow Q]$
+$[(P \Rightarrow Q) \land (Q \Rightarrow P)] \Leftrightarrow [P \Leftrightarrow Q]$
 \begin{center}
 	\begin{displaymath}
 		\begin{array}{|c|c|c|}
@@ -137,12 +139,12 @@ $[(P \implies Q) \land (Q \implies P)] \Leftrightarrow [P \Leftrightarrow Q]$
 \end{center}
 
 
-($P \implies Q) \Leftrightarrow (\lnot P \lor Q)$ 
+($P \Rightarrow Q) \Leftrightarrow (\lnot P \lor Q)$ 
 \begin{center}
 	\begin{displaymath}
 		\begin{array}{|c|c|c|c|c|}
 			\hline
-			P & \lnot P & Q & P \implies Q & \lnot P \lor Q\\ 
+			P & \lnot P & Q & P \Rightarrow Q & \lnot P \lor Q\\ 
 			\hline
 			T & F & T & T & T\\
 			T & F & F & F & F\\
@@ -188,13 +190,13 @@ Proof of De Morgan's law using proof table
 \end{center}
 
 \subsubsection{Transitivity}
-$[(P \implies R) \land (R \implies Q)] \implies (P \implies Q)$
+$[(P \Rightarrow R) \land (R \Rightarrow Q)] \Rightarrow (P \Rightarrow Q)$
 
 \begin{center}
 	\begin{displaymath}
 		\begin{array}{|c|c|c|c|c|c|c|}
 			\hline
-			P & Q & R & P \implies R & R \implies P & P \implies R \land R \implies P & P \implies Q \\ 
+			P & Q & R & P \Rightarrow R & R \Rightarrow P & P \Rightarrow R \land R \Rightarrow P & P \Rightarrow Q \\ 
 			\hline
 			T & T & T & T & T & T\\
 			T & T & F & F & T & F\\
@@ -257,24 +259,27 @@ If $Y$ is a contradiction, then $X \lor Y \Leftrightarrow X$
 
 \subsubsection{Disjunctive Normal Form}
 Forumla consisting of disjunction of conjunctions, described as an $\lor$ of $\land$\\
-asdasd
-iasd
+$A \lor \lnot B \Leftrightarrow (A \land B)\lor(A \land \lnot B)\lor(\lnot A \land \lnot B)$\\
+Beyond the scope of this class.
 \subsubsection{Expressive Completeness}
-Example is sheffer stroke.
-also known as NOR
-
+A connective, or set of connectives is expressively complete iff every truth function can be represented just using the connective or connectives.\\
+Example is sheffer stroke, also known as NAND\\ 
+Simpler example is $\lnot$ and $\land$.\\
+Beyond the scope of this class.
 \subsubsection{Logically Valid vs Logically Sound}
-
-\subsubsection{Law of Conditional}
-
-\subsubsection{Law of Contraposition}
+Logically valid means if the premises are true, the conclusion must be true.
+In other words, an argument is logically valid iff it takes a form that makes it impossible for the premises to be true and the conclusion to be false.
+Doesn't mean the argument is actually true, just its structure.\\
+An argument is logically sound if the premises are true and is logically valid.
 
 \subsection{Proof Techniques (basic ones)}
 
 \begin{enumerate}[i]
-	\item $(P \Leftrightarrow Q) \Leftrightarrow (P \implies Q) \land (Q \implies P)$ 
-	\item $(P \implies R) \land (R \implies Q) \implies (P \implies Q)$
-	\item finish this
+	\item $(P \Leftrightarrow Q) \Leftrightarrow (P \Rightarrow Q) \land (Q \Rightarrow P)$ 
+	\item $(P \Rightarrow R) \land (R \Rightarrow Q) \Rightarrow (P \Rightarrow Q)$
+	\item $(P \lor Q) \Rightarrow R \Leftrightarrow (P \Rightarrow R) \land (Q \Rightarrow R)$\\ Note: false can imply anything
+	\item{$(P \Rightarrow Q) \Leftrightarrow (\not Q \Rightarrow \not P)$}
+	\item {$[(P \Rightarrow Q) \Leftrightarrow True] \Leftrightarrow [\lnot (P \Rightarrow Q) \Leftrightarrow False]$}
 \end{enumerate}
 
 
@@ -320,9 +325,9 @@ which satisfies
 	\item{$\forall \ x \in F,\ \forall \ x \in V \ \exists ! \ w \ s.t. \ w = x + y$}
 \end{enumerate}
 
-$\implies$ \ Elements of F are are called scalars
+$\Rightarrow$ \ Elements of F are are called scalars
 
-\subsection{Tuples of scalars}
+\subsection{Example of a vector space: tuples of scalars}
 An n-tuple is a sequence (or ordered list of n elements, aka order matters), where n is a non-negative integer. The set of all n-tuples with entries from a field $F$ is denoted by $F^n$\\
 $F^n = \{(a_1, a_2, a_3, \dots, a_n) \ a_1 \in F\}$
 \subsubsection{Adding n-tuples}
@@ -332,9 +337,30 @@ $u + v = (a_1 + b_1, a_2 + b_2, a_3 + b_3, \dots, a_n + b_n)$
 $c \in F$\\
 $c \cdot u = (ca_1, ca_2,\dots, ca_n) $
 
+\subsection{Another example of vector space: Matrices}
+$M_{mxn}(F)$\ is the set of matrices with element in F of dimensions m x n\\
+Generic matrix in $M$ where $a \in F$:
+\begin{equation*}
+A_{m,n} = 
+\begin{pmatrix}
+a_{1,1} & a_{1,2} & \cdots & a_{1,n} \\
+a_{2,1} & a_{2,2} & \cdots & a_{2,n} \\
+\vdots  & \vdots  & \ddots & \vdots  \\
+a_{m,1} & a_{m,2} & \cdots & a_{m,n} 
+\end{pmatrix}
+\end{equation*}
 
+\subsubsection{Caveat: How do we define $A = B$?}
+\begin{equation*}
+\begin{split}
+	A = B \Leftrightarrow A_{i,j} = B_{i,j} \ \text{for} \ & 1 \leq i \leq m\\
+													   & 1 \leq j \leq n
+\end{split}
+\end{equation*}
 
-
+\subsubsection{Rules for matrices}
+Addition: $(A + B)_{i,j} = A_{i,j} + B_{i,j}$\\
+Multiplication by scalar: $(cA)_{i,j} = cA_{i,j}$
 
 
 \end{document} 

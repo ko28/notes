@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1579887704 "notes.tex" "notes.pdf" "notes" 1579887704
+["pdflatex"] 1580134612 "notes.tex" "notes.pdf" "notes" 1580134613
   "../evan.sty" 1579883476 18873 d766cda457a2c03ee9f28997dee0c06e ""
   "/etc/texmf/web2c/texmf.cnf" 1578934342 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
@@ -26,6 +26,7 @@
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cmbright/ebmr10.tfm" 1480098701 3092 5e77de0b5834ec014abfb4fbde93bc09 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cmbright/ebmr8.tfm" 1480098701 3088 df8733075b5d59d6a51b781a657af119 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cmbright/ebmr9.tfm" 1480098701 3096 ebe6c9bc1ae47ff13b7faf2f3617a299 ""
+  "/usr/share/texlive/texmf-dist/fonts/tfm/public/cmbright/ebsr8.tfm" 1480098701 3100 9427b5f5e6742a1c68cb403468941918 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cmbright/tbmr10.tfm" 1480098701 1476 1d92fe70b3c834a471e5789b0cf798ef ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/rsfs/rsfs10.tfm" 1480098717 688 37338d6ab346c2f1466b29e195316aa4 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/rsfs/rsfs5.tfm" 1480098717 684 3a51bd4fd9600428d5264cf25f04bb9a ""
@@ -221,7 +222,6 @@
   "/usr/share/texlive/texmf-dist/tex/latex/todonotes/todonotes.sty" 1480098841 17384 7b57db249380913af74b205c3d410376 ""
   "/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty" 1485129666 12396 d41f82b039f900e95f351e54ae740f31 ""
   "/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty" 1480098841 10214 d03d065f799d54f6b7e9b175f8d84279 ""
-  "/usr/share/texlive/texmf-dist/tex/latex/tools/enumerate.sty" 1480098841 3467 d39e40f25d5fd2b3b49a58d155063dd6 ""
   "/usr/share/texlive/texmf-dist/tex/latex/url/url.sty" 1480098842 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "/usr/share/texlive/texmf-dist/tex/latex/xcolor/svgnam.def" 1480098843 4620 ef4794ae13f75d0c199ba494bc41ff4b ""
   "/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty" 1480098843 55589 34128738f682d033422ca125f82e5d62 ""
@@ -237,13 +237,13 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1520210507 32485 c64754543d8ac501bea6e75e209ea521 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1578934385 2700761 ac0584cc9514ab21918550a6948c4ee2 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1578934409 4127540 67c6239e9a03bcb77780f889796a9b3c ""
-  "notes.aux" 1579887684 5028 8a5dc2b402a9521281abc600fd25c0cb ""
-  "notes.out" 1579887684 2731 d650d224b5358119ba34252a3eff3cb3 ""
-  "notes.pre" 1579887683 0 d41d8cd98f00b204e9800998ecf8427e ""
-  "notes.tex" 1579887703 12131 ff95fffdadf5ce696e6b16a464b23934 ""
+  "notes.aux" 1580134612 6169 008f5266666dbf460e0c382ca4a18691 ""
+  "notes.out" 1580134612 2895 a2afbd433a5d19a68c699a8e421ed124 ""
+  "notes.pre" 1580134612 0 d41d8cd98f00b204e9800998ecf8427e ""
+  "notes.tex" 1580134610 15308 30ec3c364516624d12cb669e5019f58e ""
   (generated)
-  "notes.out"
   "notes.pre"
+  "notes.out"
+  "notes.aux"
   "notes.log"
   "notes.pdf"
-  "notes.aux"

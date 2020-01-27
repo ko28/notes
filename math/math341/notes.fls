@@ -320,8 +320,6 @@ INPUT /usr/share/texlive/texmf-dist/tex/latex/base/t1enc.def
 INPUT /usr/share/texlive/texmf-dist/tex/latex/cmbright/t1cmbr.fd
 INPUT /usr/share/texlive/texmf-dist/tex/latex/cmbright/t1cmbr.fd
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cmbright/ebmr10.tfm
-INPUT /usr/share/texlive/texmf-dist/tex/latex/tools/enumerate.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/tools/enumerate.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/base/utf8.def
@@ -431,6 +429,8 @@ INPUT /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cmbright/ebmr9.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cmbright/ebbx10.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cmbright/ebmo10.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cmbright/ebsr8.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cmbright/ebsr8.tfm
 INPUT notes.aux
 INPUT ./notes.out
 INPUT ./notes.out

@@ -3,13 +3,27 @@
 \usepackage{cmbright}
 \usepackage{cancel}
 \usepackage[T1]{fontenc}
-\usepackage{enumerate}
+%\usepackage{enumerate}
+\usepackage[shortlabels]{enumitem}
 \usepackage[utf8]{inputenc}
 \usepackage[margin=1in]{geometry}
 %\usepackage[pdfborder={0 0 0},colorlinks=true,citecolor=red{}]{hyperref}
 \usepackage{amsmath}
 \usepackage{amssymb}
 \usepackage{setspace}
+
+\makeatletter
+\newenvironment{Dequation}
+  {%
+  \def\tagform@##1{%
+    \maketag@@@{\makebox[0pt][r]{(\ignorespaces##1\unskip\@@italiccorr)}}}%
+  \ignorespaces
+  }
+  {%
+  \def\tagform@##1{\maketag@@@{(\ignorespaces##1\unskip\@@italiccorr)}}%
+  \ignorespacesafterend
+  }
+\makeatother
 
 \title{Math 341: Linear Alegbra}
 \author{Daniel Ko}
@@ -279,7 +293,7 @@ An argument is logically sound if the premises are true and is logically valid.
 	\item $(P \Leftrightarrow Q) \Leftrightarrow (P \Rightarrow Q) \land (Q \Rightarrow P)$ 
 	\item $(P \Rightarrow R) \land (R \Rightarrow Q) \Rightarrow (P \Rightarrow Q)$
 	\item $(P \lor Q) \Rightarrow R \Leftrightarrow (P \Rightarrow R) \land (Q \Rightarrow R)$\\ Note: false can imply anything
-	\item $(P \Rightarrow Q) \Leftrightarrow (\not Q \Rightarrow \not P)$
+	\item $(P \Rightarrow Q) \Leftrightarrow (\lnot Q \Rightarrow \lnot P)$
 	\item $[(P \Rightarrow Q) \Leftrightarrow True] \Leftrightarrow [\lnot (P \Rightarrow Q) \Leftrightarrow False]$
 \end{enumerate}
 
@@ -422,9 +436,9 @@ We need to prove this.
 	[1.1 Cancellation Law for Vector Addition]
 	If $x, y, x$ are vectors in vector space $V$ such that $x + z = y + z$. Then, 
 	\[ x = y \]
-\end{theorem}
+\end{theorem*}
 \begin{proof}
-	Given that $z \in V$ \\
+	Given that $z \in V$ 
 	
 	\[\text{VS3:} \quad \exists v \in V  \ \text{such that } z + v = 0 \]
 	\[\text{VS1:} \quad \exists 0 \in V  \ \text{such that } x + 0 = x \]
@@ -437,4 +451,78 @@ We need to prove this.
 		\therefore x & = y
 	\end{align*}
 \end{proof}
+
+\begin{corollary*}
+	The additive inverse is unique.
+\end{corollary*}
+
+\begin{proof}
+Suppose $u,v$ are the additive inverse of x.
+\[x + u = 0 \quad x + v = 0\]
+\begin{Dequation}
+\begin{align*}
+	x + u & = x + v \tag{Transitive property}\\ 
+	u + x & = v + x \tag{Commutative property}\\
+	u & = v \tag{Theorem 1.1}
+\end{align*}
+\end{Dequation}
+\end{proof}
+
+\begin{corollary*}
+	The vector $0$ is unique.
+\end{corollary*}
+
+\begin{proof}
+Suppose $u,v \in V$ satisfies the "zero property", which is defined as:
+
+\begin{Dequation}
+\begin{align*}
+	\forall x \in V \quad x + u & = x \Rightarrow v + u = v \\
+	\forall x \in V \quad x + v & = x \Rightarrow u + v = u \\
+	u = u + v & = v + u = v \tag{Transitive property}\\
+	u & = v \tag{Theorem 1.1}
+\end{align*}
+\end{Dequation}
+\end{proof}
+\begin{theorem*}
+	[1.2 In any vector space the following statements are true.]
+	\-\
+	\begin{enumerate}[label=\alph*.]
+		\item{$0 \textbf{x = 0} $\\
+				$\forall \textbf{x} \in \textbf{V} \quad 0 \in F $\\ 
+			Where the left 0 is a scalar, \textbf{x} is a vector, and right \textbf{0} is a vector. The equality is a vector equality. \\ \ul{Any vector multiplied by the 0 scalar will result in the 0 vector.}} \item{
+				$(-a)\textbf{x} = -(a\textbf{x}) = a(-\textbf{x})$\\
+				$\forall x \in \textbf{V} \quad a \in F$\\
+		Where $-x$ is the additive inverse of $x$. \\ {Whether the negative is in the scalar, vector, or after the scalar vector multiplication, the result will be the same.}}	
+			\item{$a\textbf{0 = 0}$ \\ $\forall a \in F \quad \textbf{0} \in \textbf{V}$ \\ \ul{Any scalar multiplied by the 0 vector will result in the 0 vector.}}
+	\end{enumerate}
+\end{theorem*}
+
+\subsection{Subspaces}
+$\textbf{W} \subset \textbf{V}$\\
+Is $\textbf{W}$ a subspace; does it behaves like a vector space on its own?
+\begin{definition*}
+	[1.3 Subspaces]
+	A subset $W$ of $V$(vector space over $F$) is called a subspace of $V \Leftrightarrow W$ is a vector space over $F$ with the operations inherited from $V$.   
+\end{definition*}
+\-\ \\
+Trival subspace: \quad $V, \{0\}$
+\subsubsection{Conditions to be subspace (ie vector space)}
+\begin{enumerate}[label=\alph*.]
+	\item{$\textbf{x + y} \in \textbf{W}$}
+	\item{$c\textbf{x} \in \textbf{W}$}
+	\item{$\exists \textbf{0} \in \textbf{W}, \textbf{x + 0 = x}$}
+	\item{$\forall \textbf{x} \in \textbf{W} \quad \exists \textbf{y} \in \textbf{W} \\ \textbf{x + y = 0}$ }
+\end{enumerate}
+
+\begin{theorem*}
+	[1.3 Conditions for subspace]
+	\textbf{W} is a subspace of \textbf{V} if and only if the three conditions hold in \textbf{W} defined in \textbf{V}.
+\begin{enumerate}[label=\alph*.]
+	\item{$\textbf{0} \in \textbf{W}$ \\ \textbf{0} vector exists in W.}
+	\item{$\textbf{x + y} \in \textbf{W}$ \\ Closure under vector addition.}
+	\item{$c\textbf{x} \in \textbf{W}$ \\ Closure under scalar multiplication.}
+\end{enumerate}
+\end{theorem*}
+
 \end{document} 

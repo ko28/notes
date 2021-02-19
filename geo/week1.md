@@ -46,7 +46,7 @@ It's denser (Density = mass/vol), sinks faster
 
 - The crust has a lot of holes filled with oxygen gas 
 - Volcanoes suck oxygen into the Earth’s interior 
-- **Most of the crust is made up of solid**
+- **Most of the crust is made up of solid silica tetrahedra**
 
 Copper discovered 11k years ago
 Gold 8k years ago

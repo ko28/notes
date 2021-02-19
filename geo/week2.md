@@ -39,3 +39,35 @@ C. Evolution and the Modern Synthesis.
 D. **Continental Drift and Seafloor Spreading**
 
 # The 7 types of plate boundaries
+
+Oceanic crust is made of basalt.
+
+Continental crust is made of granite 
+
+Ridge in the middle of oceanic crust, aka sea floor spreading, New crust is being made from magma. 
+
+Absolute ages obtained from igneous rocks samples recovered from mid-ocean ridges reveal that:
+A. rocks ages get older with greater distance from the axis of the spreading ridge
+B. the pattern of rock ages is mirrored on each side of the spreading ridge
+C. **all of the above**
+D. None of these
+
+At which kind of plate tectonic boundary is the upper
+part of the mantle rising?
+A. **Divergent boundaries**
+B. Convergent boundaries
+C. Transform boundaries
+
+Why is molten magma rising to the surface at
+divergent plate boundaries?
+A. because it is more dense than the hotter rock around it
+B. because it is affected by anti-gravity
+C. **because it is less dense than the cooler rock surrounding it**
+D. it is pure chance that magma rises at these boundaries
+
+According to the reconstructed history of continental
+movements you just saw, about when did the modernday Atlantic Ocean first begin to form?
+A. About 750 million years ago
+B. About 390 million years ago
+C. **About 150 million years ago**
+D. About 50 million years ago
